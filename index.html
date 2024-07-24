@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Data Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="sidebar">
+        <div id="buttons">
+            <button id="scene1-btn">1</button>
+            <button id="scene2-btn">2</button>
+            <button id="scene3-btn">3</button>
+        </div>
+        <div id="description">
+            <h2 id="chart-title">Global Temperature Trends</h2>
+            <p id="scene-description">Scene 1: This scene highlights global temperature trends over the past decades, showing the steady rise in temperature anomalies.</p>
+            <div id="annotations"></div>
+        </div>
+    </div>
+    <div>
+        <div id="visualization-container"></div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
